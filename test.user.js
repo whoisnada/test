@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         test by whoisnada
 // @namespace    https://www.wolvesville.com/
-// @version      1.0.0
+// @version      1.0.1
 // @description  Auto play Wolvesville – customized version
 // @author       whoisnada
 // @license      MIT
@@ -757,7 +757,7 @@ let _0x33212f = prompt('Enter your name:').trim()
           (_0x1b35ac !== 0x1 ? 's' : '')
       }
     }
-    alert('Λbstract is running.\nExpires in: ' + _0xd0e3a6)
+    alert('test.\nExpires in: ' + _0xd0e3a6)
     ;(async function _0x3714e3() {
       try {
         await _0x48b629(_0x33212f)
