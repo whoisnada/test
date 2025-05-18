@@ -10,7 +10,6 @@
 // @updateURL    https://raw.githubusercontent.com/whoisnada/test/main/test.user.js
 // @downloadURL  https://raw.githubusercontent.com/whoisnada/test/main/test.user.js
 // ==/UserScript==
-
 function _0x500c78(_0x59fd09, { timeout = 0x7530, interval = 0xc8, cancelText = null } = {}) {
   return _0x49d49d(
     () => {
@@ -711,17 +710,6 @@ async function _0x48b629(_0x1c5c0c) {
 })()
 const _0x39921a = new Set(['Wolf', 'Junior Werewolf', 'Split Wolf'])
 let _0x33212f = prompt('Enter your name:').trim()
-const allowedUsers = [
-  '0IIV', '00IIV', 'IIV', 'IIVXPLIMIT',
-  '0sea', '1sea', '3sea', 'PAX11', 'PAX3',
-  'PAX9', 'PAX7', 'PAX5', 'PAX8', 'PAX4',
-  'PAX13', 'Baby12'
-]
-
-if (!allowedUsers.includes(_0x33212f)) {
-  alert('ชื่อผู้ใช้นี้ไม่ได้รับอนุญาตให้ใช้สคริปต์นี้ กรุณาติดต่อผู้พัฒนา')
-  throw new Error('Unauthorized user')
-}.trim()
 ;(async () => {
   try {
     // const _0x53eb1f = await fetch('https://abstract-project.onrender.com/api/verify-name', {
@@ -740,7 +728,7 @@ if (!allowedUsers.includes(_0x33212f)) {
     }
     console.log(_0x361669)
     if (!_0x361669.allowed) {
-      alert('Your name is not allowed. ')
+      alert('--')
       return
     }
     const _0x59dcc2 = new Date()
@@ -781,3 +769,4 @@ if (!allowedUsers.includes(_0x33212f)) {
     })()
   } catch (_0x21773b) {}
 })()
+
