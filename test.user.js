@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         test by whoisnada
 // @namespace    https://www.wolvesville.com/
-// @version      1.0.0
+// @version      1.0.4
 // @description  Auto play Wolvesville – customized version
 // @author       whoisnada
 // @license      MIT
