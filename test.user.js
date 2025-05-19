@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         test by whoisnada
 // @namespace    https://www.wolvesville.com/
-// @version      1.0.4
+// @version      1.0.5
 // @description  Auto play Wolvesville – customized version
 // @author       whoisnada
 // @license      MIT
@@ -441,7 +441,7 @@ async function _0x4e2259(_0x184f3e, _0x399e09, _0x308ade) {
     await _0x500c78('25s', {
       cancelText: 'Continue',
     })
-    _0x22bc55('Who? My couple is' + _0x184f3e.coupleNumber1, _0x399e09[0x0])
+    _0x22bc55('Who? My couple is ' + _0x184f3e.coupleNumber1, _0x399e09[0x0])
     await _0x4f5377('5s', {
       cancelText: 'Continue',
     })
