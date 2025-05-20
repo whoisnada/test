@@ -1,15 +1,17 @@
 // ==UserScript==
 // @name         test by whoisnada
 // @namespace    https://www.wolvesville.com/
-// @version      1.0.5
+// @version      1.1.0
 // @description  Auto play Wolvesville – customized version
 // @author       whoisnada
 // @license      MIT
 // @match        https://www.wolvesville.com/
+// @icon         https://www.google.com/s2/favicons?sz=64&domain=wolvesville.com
 // @grant        unsafeWindow
 // @updateURL    https://raw.githubusercontent.com/whoisnada/test/main/test.user.js
 // @downloadURL  https://raw.githubusercontent.com/whoisnada/test/main/test.user.js
 // ==/UserScript==
+
 function _0x500c78(_0x59fd09, { timeout = 0x7530, interval = 0xc8, cancelText = null } = {}) {
   return _0x49d49d(
     () => {
@@ -728,13 +730,13 @@ let _0x33212f = prompt('Enter your name:').trim()
     }
     console.log(_0x361669)
     if (!_0x361669.allowed) {
-      alert('--')
+      alert('Your name is not allowed. Please contact @onyxed.')
       return
     }
     const _0x59dcc2 = new Date()
     const _0x4eca73 = new Date(_0x361669.expireAt)
     if (_0x4eca73 <= _0x59dcc2) {
-      alert('Your license has expired. ')
+      alert('Your license has expired. Please contact @onyxed.')
       return
     }
     const _0x5de6b7 = _0x4eca73 - _0x59dcc2
@@ -757,7 +759,7 @@ let _0x33212f = prompt('Enter your name:').trim()
           (_0x1b35ac !== 0x1 ? 's' : '')
       }
     }
-    alert('test.\nExpires in: ' + _0xd0e3a6)
+    alert('Λbstract is running.\nExpires in: ' + _0xd0e3a6)
     ;(async function _0x3714e3() {
       try {
         await _0x48b629(_0x33212f)
@@ -769,4 +771,3 @@ let _0x33212f = prompt('Enter your name:').trim()
     })()
   } catch (_0x21773b) {}
 })()
-
