@@ -1,17 +1,15 @@
 // ==UserScript==
 // @name         test by whoisnada
 // @namespace    https://www.wolvesville.com/
-// @version      1.1.0
+// @version      1.1.1
 // @description  Auto play Wolvesville – customized version
 // @author       whoisnada
 // @license      MIT
 // @match        https://www.wolvesville.com/
-// @icon         https://www.google.com/s2/favicons?sz=64&domain=wolvesville.com
 // @grant        unsafeWindow
 // @updateURL    https://raw.githubusercontent.com/whoisnada/test/main/test.user.js
 // @downloadURL  https://raw.githubusercontent.com/whoisnada/test/main/test.user.js
 // ==/UserScript==
-
 function _0x500c78(_0x59fd09, { timeout = 0x7530, interval = 0xc8, cancelText = null } = {}) {
   return _0x49d49d(
     () => {
@@ -443,7 +441,7 @@ async function _0x4e2259(_0x184f3e, _0x399e09, _0x308ade) {
     await _0x500c78('25s', {
       cancelText: 'Continue',
     })
-    _0x22bc55('Who? My couple is ' + _0x184f3e.coupleNumber1, _0x399e09[0x0])
+    _0x22bc55('Who? Mine ' + _0x184f3e.coupleNumber1, _0x399e09[0x0])
     await _0x4f5377('5s', {
       cancelText: 'Continue',
     })
@@ -730,13 +728,13 @@ let _0x33212f = prompt('Enter your name:').trim()
     }
     console.log(_0x361669)
     if (!_0x361669.allowed) {
-      alert('Your name is not allowed. Please contact @onyxed.')
+      alert('--')
       return
     }
     const _0x59dcc2 = new Date()
     const _0x4eca73 = new Date(_0x361669.expireAt)
     if (_0x4eca73 <= _0x59dcc2) {
-      alert('Your license has expired. Please contact @onyxed.')
+      alert('Your license has expired. ')
       return
     }
     const _0x5de6b7 = _0x4eca73 - _0x59dcc2
